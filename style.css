@@ -1,0 +1,123 @@
+/*Tuan Sua Develop*/
+div, p, h1, h2, h3, h4, h5, h6, a, body {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+  font-family: Evogria;
+  src: url("font/Evogria.otf");
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("font/Montserrat-Regular.ttf");
+}
+.main {
+    background: url(image/back-ground.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    padding-left: 50px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    display: flex;
+    overflow: hidden;
+}
+.left-row-1 h1 {
+    font-family: Evogria;
+    background: linear-gradient(to right, #8e6f44 4%, #f9f7c1 20%, #8f7145 50%);
+    -webkit-background-clip: text;
+    font-size: 67pt;
+    -webkit-text-fill-color: transparent;
+}
+.left-row-2 h2 {
+    font-family: Evogria;
+    background: linear-gradient(to right, #8e6f44 4%, #f9f7c1 20%, #8f7145 50%);
+    -webkit-background-clip: text;
+    font-size: 32pt;
+    -webkit-text-fill-color: transparent;
+}
+.left-row p {
+    color: #fefefe;
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+        line-height: 22px;
+    margin-top: 20px;
+}
+.left-row a {
+    color: #e6daa8;
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+.col-left {
+    width: 60%;
+}
+.col-right {
+    width: 40%;
+}
+.left-row-1 {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.left-row-1 h1:after {
+    width: 85%;
+    content: '';
+    height: 1px;
+    background: #29261c;
+    display: block;
+    margin-top: -15px;
+    margin-left: -20px;
+}
+.left-row-2 {
+    margin-top: 15px;
+}
+.left-row-2 h2:after {
+    width: 80%;
+    content: '';
+    height: 1px;
+    background: #29261c;
+    display: block;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.left-row p span {
+    color: #dd840c;
+    font-style: italic;
+}
+.left-row-5 img {
+    width: 150pt;
+}
+.left-row-5 {
+    text-align: center;
+    padding-top: 20px;
+}
+.right-row-1 {
+    text-align: right;
+    padding-right: 50px;
+}
+.right-row-1 img {
+    width: 105pt;
+}
+.right-row-1 a {
+    padding: 5px;
+}
+.right-row-2 img {
+    width: 250pt;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.right-row-3 img {
+    width: 300pt;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+@media screen and (max-width: 767px) {
+    .right-row-2 img {
+        width: 250pt;
+        margin-top: 50px;
+    }
+}
